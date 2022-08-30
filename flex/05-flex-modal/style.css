@@ -44,13 +44,21 @@ body {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+  font-size: larger;
+  align-items: center;
 }
+.textpart{
+  display: flex;
+  align-self: center;
 
+}
 .close-button{
   align-self: center;
 }
 .buttons {
   display: flex;
+  gap: 8px;
+
 }
 
 .icon {
