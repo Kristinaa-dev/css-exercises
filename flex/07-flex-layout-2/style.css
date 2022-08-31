@@ -3,26 +3,79 @@ body {
   margin: 0;
   min-height: 100vh;
 }
+.main-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+.title {
+  margin: 16px;
+}
+.content {
+  display: flex;
+  flex: auto;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  display: flex;
+  flex: 1 1 20%;
+  min-width: 300px;
+  padding: 16px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 80%;
+  padding: 32px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  max-width: 300px;
+  flex: 1 1 33%;
+  margin: 16px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+
+}
+li {
+  list-style-type: none ;
+}
+ul {
+  margin: 0;
+  padding: 0;
+
 }
